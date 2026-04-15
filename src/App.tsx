@@ -5,6 +5,7 @@ import { Shop } from "./pages/Shop";
 import { Admin } from "./pages/Admin";
 import { Kms } from "./pages/Kms";
 import { Chat } from "./pages/Chat";
+import Game from "./pages/Game";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path = "/chat" element={<Chat />}></Route>
           <Route path = "/kms" element={<Kms />}></Route>
           <Route path = "/admin" element={<Admin />}></Route>
+          <Route path = "/game" element={<Game />}></Route>          
         </Routes>
       </Layout>
     </BrowserRouter>
